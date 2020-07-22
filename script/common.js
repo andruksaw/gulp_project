@@ -5,3 +5,9 @@ var swiper = new Swiper('.header-slider', {
   },
   slidesPerView: 1
 });
+var mySwiper = new Swiper('.header-slider', {
+  autoplay: {
+    delay: 5000
+  },
+  reverseDirection: true
+});
