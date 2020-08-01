@@ -11,3 +11,26 @@ var mySwiper = new Swiper('.header-slider', {
   },
   reverseDirection: true
 });
+
+window.onscroll = function () {
+  var scrrollElem = document.getElementById('scrollTop');
+
+  if (document.body.scrollTop > document.documentElement.clientHeight) {
+    scrrollElem.style.opacity = '0';
+  } else {
+    scrrollElem.style.opacity = '1';
+  }
+};
+
+var timeOut;
+
+function goUp() {
+  var top = Math.max(document.body.scrollTop, document.documentElement.scrollTop);
+
+  if (top > 0) {
+    window.scrollBy(0, -100);
+    timeOut = setTimeout('goUp()', 20);
+  } else {
+    clearTimeout(timeOut);
+  }
+}
