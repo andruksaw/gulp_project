@@ -1,97 +1,134 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/5.4.5/css/swiper.min.css">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+        <link rel="stylesheet" href="fonts/fontawesome-free-5.14.0-web/css/all.css">
     <link rel="stylesheet" href="style/main.min.css">
-    <title>Document</title>
+    <title>Totembo</title>
 </head>
+
 <body>
-    
-
 <header class="header">
-    <div class="container">
-        <div class="user-config">
-            <ul class="languge">
-                <li><a href="" class="languages_link">
-                        <img src="images/flag.png" alt="">
-                        <span>ru</span>
-                    </a></li>
-                <li><a href="" class="languages_link">
-                        <img src="images/flag.png" alt="">
-                        <span>ru</span>
-                    </a></li>
-                <li><a href="" class="languages_link">
-                        <img src="images/flag.png" alt="">
-                        <span>ru</span>
-                    </a></li>
-            </ul>
 
-            <a class="logo" href="">totembo</a>
+    <div class="user-config"> 
+        <div class="container">
+            <div class="row user-config_row">
+                <div class="languges">
+                    <ul class="languges-menu">
+                        <li class="languges-menu_li"><a href="" class="languges-menu_li-links">
+                                <img class="languges-menu_li-links_img" src="images/flag.png" alt="">
+                                <span class="languges-menu_li-links_span">ru</span>
+                            </a></li>
+                        <li class="languges-menu_li"><a href="" class="languges-menu_li-links">
+                                <img class="languges-menu_li-links_img" src="images/flag.png" alt="">
+                                <span class="languges-menu_li-links_span">ru</span>
+                            </a></li>
+                        <li class="languges-menu_li"><a href="" class="languges-menu_li-links">
+                                <img class="languges-menu_li-links_img" src="images/flag.png" alt="">
+                                <span class="languges-menu_li-links_span">ru</span>
+                            </a></li>
+                    </ul>
+                </div>
 
-            <ul class="user-control">
-                <li class="user-control_link">
-                    <form class="user-control_link-form" action="">
-                        <input class="user-control_link-form_input" type="text">
-                        <button class="user-control_link-form_button"><img src="images/search.png" alt=""></button>
-                    </form>
-                </li>
-            </ul>
+                <a class="logo" href="">totembo</a>
+
+                <ul class="user-control">
+                    <li class="user-control_link">
+                        <form class="user-control_link-form" action="">
+                            <button class="user-control_link-form_button"><img src="images/search.png" alt=""></button>
+                            <input class="user-control_link-form_input" type="text">
+                        </form>
+                        <div class="user-control_link-profile"><img class="user-control_link-profile-img"
+                                src="images/profile-img.png" alt=""></div>
+                    </li>
+                </ul>
+
+            </div>
         </div>
 
-        <nav class="header_nav">
-            <ul class="header-menu">
-                <li class="header-menu_link"><a href="">Часы</a></li>
-                <li class="header-menu_link"><a href="">Кольца</a></li>
-                <li class="header-menu_link"><a href="">Серьги</a></li>
-                <li class="header-menu_link"><a href="">Браслеты</a></li>
-                <li class="header-menu_link"><a href="">Клатчи</a></li>
-                <li class="header-menu_link"><a href="">Цепочки</a></li>
-            </ul>
 
-            <ul class="config-products">
-                <li class="config-products_link"><a href=""><img src="images/heart.png" alt=""></a></li>
-                <li class="config-products_link"><a href=""><img src="images/cart.png" alt=""></a></li>
-            </ul>
-        </nav>
+
     </div>
 
-    <div class="swiper-container header-slider container">
+    <nav class="header_nav">
+
+        <div class="container">
+            <div class="row header_nav_row">
+                <ul class="header-menu">
+                    <li class="header-menu_link"><a href="">Часы</a></li>
+                    <li class="header-menu_link"><a href="">Кольца</a></li>
+                    <li class="header-menu_link"><a href="">Серьги</a></li>
+                    <li class="header-menu_link"><a href="">Браслеты</a></li>
+                    <li class="header-menu_link"><a href="">Клатчи</a></li>
+                    <li class="header-menu_link"><a href="">Цепочки</a></li>
+                </ul>
+
+                <ul class="config-products">
+                    <li class="config-products_link"><a href=""><img src="images/heart.png" alt=""></a></li>
+                    <li class="config-products_link"><a href=""><img src="images/cart.png" alt=""></a></li>
+                </ul>
+            </div>
+        </div>
+
+    </nav>
+
+    <div class="swiper-container header-slider">
 
         <div class="swiper-wrapper ">
 
             <div class="swiper-slide header-slider_slide">
 
-                <div class="header-slider_slide-item_1">
-
-                    <div class="product product_min product_min_1">
-
-                        <div class="product_sale"><span class="product_sale-span">50%</span></div>
+                <div class="header-slider_slide-item">
 
     
 
-                        <div class="product_content">
+                    <div class="container product_container">
 
-                            <div class="product_img">
+                        <div class="product product_grid_1">
 
-                                <img src="images/header_product_01.png" alt="">
+                            <div class="product_sale"><span class="product_sale-span">50%</span></div>
 
-                            </div>
+    
 
-                            <div class="product_desc">
+                            <div class="product_content">
 
-                                <div class="product_about">
+                                <div class="product_img">
 
-                                    <h2 class="product_title">Наручные часы</h2>
-
-                                    <span class="product_span">Fantastic Style</span>
+                                    <img src="images/header_product_01.png" alt="">
 
                                 </div>
 
-                                <span class="product_price">1 128 000</span>
+                                <div class="product_desc">
 
-                                <span class="currency">UZS</span>
+                                    <div class="product_about">
+
+                                        <h2 class="product_title">Наручные часы</h2>
+
+                                        <span class="product_span">Fantastic Style</span>
+
+                                    </div>
+
+                                    <span class="product_price">1 128 000</span>
+
+                                    <span class="currency">UZS</span>
+
+                                </div>
+
+                            </div>
+
+    
+
+                            <div class="product_btn">
+
+                                <img class="product_btn-item" src="images/heart.png" alt="">
+
+                                <img class="product_btn-item" src="images/cart.png" alt="">
 
                             </div>
 
@@ -99,111 +136,105 @@
 
     
 
-                        <div class="product_btn">
+                        <div class="product product_grid_2">
 
-                            <img class="product_btn-item" src="images/heart.png" alt="">
+    
 
-                            <img class="product_btn-item" src="images/cart.png" alt="">
+                            <div class="product_sale"><span class="product_sale-span">50%</span></div>
+
+    
+
+                            <div class="product_content">
+
+                                <div class="product_img product_img_big">
+
+                                    <img class="product_img_big_img" src="images/header_product_03.png" alt="">
+
+                                </div>
+
+                                <div class="product_desc">
+
+                                    <div class="product_about">
+
+                                        <h2 class="product_title">Черная мужская серьга</h2>
+
+                                        <span class="product_span">DIADEMA GRAND</span>
+
+                                    </div>
+
+                                    <span class="product_price">95 000</span>
+
+                                    <span class="currency">UZS</span>
+
+                                </div>
+
+                            </div>
+
+    
+
+                            <div class="product_btn">
+
+                                <img class="product_btn-item" src="images/heart.png" alt="">
+
+                                <img class="product_btn-item" src="images/cart.png" alt="">
+
+                            </div>
+
+    
+
+    
+
+                        </div>
+
+    
+
+                        <div class="product product_grid_3">
+
+                            <div class="product_content">
+
+                                <div class="product_desc">
+
+                                    <div class="product_about">
+
+                                        <h2 class="product_title">Кожанный браслет</h2>
+
+                                        <span class="product_span">Everiot</span>
+
+                                    </div>
+
+                                    <span class="product_price">150 000</span>
+
+                                    <span class="currency">UZS</span>
+
+                                </div>
+
+                                <div class="product_img product_03_img">
+
+                                    <img src="images/header_product_02.png" alt="">
+
+                                </div>
+
+                            </div>
+
+    
+
+                            <div class="product_btn">
+
+                                <img class="product_btn-item" src="images/heart.png" alt="">
+
+                                <img class="product_btn-item" src="images/cart.png" alt="">
+
+                            </div>
 
                         </div>
 
                     </div>
 
     
-
-                    <div class="product product_min product_min_2">
-
-                        <!-- <div class="product_sale"><span class="product_sale-span">50%</span></div> -->
-
-    
-
-                        <div class="product_content product_content_big">
-
-                            <div class="product_desc">
-
-                                <div class="product_about">
-
-                                    <h2 class="product_title">Кожанный браслет</h2>
-
-                                    <span class="product_span">Everiot</span>
-
-                                </div>
-
-                                <span class="product_price">150 000</span>
-
-                                <span class="currency">UZS</span>
-
-                            </div>
-
-                            <div class="product_img product_02_img">
-
-                                <img src="images/header_product_02.png" alt="">
-
-                            </div>
-
-                        </div>
-
-    
-
-                        <div class="product_btn">
-
-                            <img class="product_btn-item" src="images/heart.png" alt="">
-
-                            <img class="product_btn-item" src="images/cart.png" alt="">
-
-                        </div>
-
-                    </div>
 
                 </div>
 
-                <div class="header-slider_slide-item_2">
-
-                    <div class="product product_big">
-
-                        <div class="product_sale"><span class="product_sale-span">50%</span></div>
-
     
-
-                        <div class="product_content product_content_big">
-
-                            <div class="product_img product_img_big">
-
-                                <img class="product_img_big_img" src="images/header_product_03.png" alt="">
-
-                            </div>
-
-                            <div class="product_desc">
-
-                                <div class="product_about">
-
-                                    <h2 class="product_title">Черная мужская серьга</h2>
-
-                                    <span class="product_span">DIADEMA GRAND</span>
-
-                                </div>
-
-                                <span class="product_price">95 000</span>
-
-                                <span class="currency">UZS</span>
-
-                            </div>
-
-                        </div>
-
-    
-
-                        <div class="product_btn">
-
-                            <img class="product_btn-item" src="images/heart.png" alt="">
-
-                            <img class="product_btn-item" src="images/cart.png" alt="">
-
-                        </div>
-
-                    </div>
-
-                </div>
 
             </div>
 
@@ -211,35 +242,51 @@
 
             <div class="swiper-slide header-slider_slide">
 
-                <div class="header-slider_slide-item_1">
-
-                    <div class="product product_min product_min_1">
-
-                        <div class="product_sale"><span class="product_sale-span">50%</span></div>
+                <div class="header-slider_slide-item">
 
     
 
-                        <div class="product_content">
+                    <div class="container product_container">
 
-                            <div class="product_img">
+                        <div class="product product_grid_1">
 
-                                <img src="images/header_product_01.png" alt="">
+                            <div class="product_sale"><span class="product_sale-span">50%</span></div>
 
-                            </div>
+    
 
-                            <div class="product_desc">
+                            <div class="product_content">
 
-                                <div class="product_about">
+                                <div class="product_img">
 
-                                    <h2 class="product_title">Наручные часы</h2>
-
-                                    <span class="product_span">Fantastic Style</span>
+                                    <img src="images/header_product_01.png" alt="">
 
                                 </div>
 
-                                <span class="product_price">1 128 000</span>
+                                <div class="product_desc">
 
-                                <span class="currency">UZS</span>
+                                    <div class="product_about">
+
+                                        <h2 class="product_title">Наручные часы</h2>
+
+                                        <span class="product_span">Fantastic Style</span>
+
+                                    </div>
+
+                                    <span class="product_price">1 128 000</span>
+
+                                    <span class="currency">UZS</span>
+
+                                </div>
+
+                            </div>
+
+    
+
+                            <div class="product_btn">
+
+                                <img class="product_btn-item" src="images/heart.png" alt="">
+
+                                <img class="product_btn-item" src="images/cart.png" alt="">
 
                             </div>
 
@@ -247,111 +294,105 @@
 
     
 
-                        <div class="product_btn">
+                        <div class="product product_grid_2">
 
-                            <img class="product_btn-item" src="images/heart.png" alt="">
+    
 
-                            <img class="product_btn-item" src="images/cart.png" alt="">
+                            <div class="product_sale"><span class="product_sale-span">50%</span></div>
+
+    
+
+                            <div class="product_content">
+
+                                <div class="product_img product_img_big">
+
+                                    <img class="product_img_big_img" src="images/header_product_03.png" alt="">
+
+                                </div>
+
+                                <div class="product_desc">
+
+                                    <div class="product_about">
+
+                                        <h2 class="product_title">Черная мужская серьга</h2>
+
+                                        <span class="product_span">DIADEMA GRAND</span>
+
+                                    </div>
+
+                                    <span class="product_price">95 000</span>
+
+                                    <span class="currency">UZS</span>
+
+                                </div>
+
+                            </div>
+
+    
+
+                            <div class="product_btn">
+
+                                <img class="product_btn-item" src="images/heart.png" alt="">
+
+                                <img class="product_btn-item" src="images/cart.png" alt="">
+
+                            </div>
+
+    
+
+    
+
+                        </div>
+
+    
+
+                        <div class="product product_grid_3">
+
+                            <div class="product_content product_content_big">
+
+                                <div class="product_desc">
+
+                                    <div class="product_about">
+
+                                        <h2 class="product_title">Кожанный браслет</h2>
+
+                                        <span class="product_span">Everiot</span>
+
+                                    </div>
+
+                                    <span class="product_price">150 000</span>
+
+                                    <span class="currency">UZS</span>
+
+                                </div>
+
+                                <div class="product_img product_03_img">
+
+                                    <img src="images/header_product_02.png" alt="">
+
+                                </div>
+
+                            </div>
+
+    
+
+                            <div class="product_btn">
+
+                                <img class="product_btn-item" src="images/heart.png" alt="">
+
+                                <img class="product_btn-item" src="images/cart.png" alt="">
+
+                            </div>
 
                         </div>
 
                     </div>
 
     
-
-                    <div class="product product_min product_min_2">
-
-                        <!-- <div class="product_sale"><span class="product_sale-span">50%</span></div> -->
-
-    
-
-                        <div class="product_content product_content_big">
-
-                            <div class="product_desc">
-
-                                <div class="product_about">
-
-                                    <h2 class="product_title">Кожанный браслет</h2>
-
-                                    <span class="product_span">Everiot</span>
-
-                                </div>
-
-                                <span class="product_price">150 000</span>
-
-                                <span class="currency">UZS</span>
-
-                            </div>
-
-                            <div class="product_img product_02_img">
-
-                                <img src="images/header_product_02.png" alt="">
-
-                            </div>
-
-                        </div>
-
-    
-
-                        <div class="product_btn">
-
-                            <img class="product_btn-item" src="images/heart.png" alt="">
-
-                            <img class="product_btn-item" src="images/cart.png" alt="">
-
-                        </div>
-
-                    </div>
 
                 </div>
 
-                <div class="header-slider_slide-item_2">
-
-                    <div class="product product_big">
-
-                        <div class="product_sale"><span class="product_sale-span">50%</span></div>
-
     
-
-                        <div class="product_content product_content_big">
-
-                            <div class="product_img product_img_big">
-
-                                <img class="product_img_big_img" src="images/header_product_03.png" alt="">
-
-                            </div>
-
-                            <div class="product_desc">
-
-                                <div class="product_about">
-
-                                    <h2 class="product_title">Черная мужская серьга</h2>
-
-                                    <span class="product_span">DIADEMA GRAND</span>
-
-                                </div>
-
-                                <span class="product_price">95 000</span>
-
-                                <span class="currency">UZS</span>
-
-                            </div>
-
-                        </div>
-
-    
-
-                        <div class="product_btn">
-
-                            <img class="product_btn-item" src="images/heart.png" alt="">
-
-                            <img class="product_btn-item" src="images/cart.png" alt="">
-
-                        </div>
-
-                    </div>
-
-                </div>
 
             </div>
 
@@ -359,35 +400,51 @@
 
             <div class="swiper-slide header-slider_slide">
 
-                <div class="header-slider_slide-item_1">
-
-                    <div class="product product_min product_min_1">
-
-                        <div class="product_sale"><span class="product_sale-span">50%</span></div>
+                <div class="header-slider_slide-item">
 
     
 
-                        <div class="product_content">
+                    <div class="container product_container">
 
-                            <div class="product_img">
+                        <div class="product product_grid_1">
 
-                                <img src="images/header_product_01.png" alt="">
+                            <div class="product_sale"><span class="product_sale-span">50%</span></div>
 
-                            </div>
+    
 
-                            <div class="product_desc">
+                            <div class="product_content">
 
-                                <div class="product_about">
+                                <div class="product_img">
 
-                                    <h2 class="product_title">Наручные часы</h2>
-
-                                    <span class="product_span">Fantastic Style</span>
+                                    <img src="images/header_product_01.png" alt="">
 
                                 </div>
 
-                                <span class="product_price">1 128 000</span>
+                                <div class="product_desc">
 
-                                <span class="currency">UZS</span>
+                                    <div class="product_about">
+
+                                        <h2 class="product_title">Наручные часы</h2>
+
+                                        <span class="product_span">Fantastic Style</span>
+
+                                    </div>
+
+                                    <span class="product_price">1 128 000</span>
+
+                                    <span class="currency">UZS</span>
+
+                                </div>
+
+                            </div>
+
+    
+
+                            <div class="product_btn">
+
+                                <img class="product_btn-item" src="images/heart.png" alt="">
+
+                                <img class="product_btn-item" src="images/cart.png" alt="">
 
                             </div>
 
@@ -395,129 +452,109 @@
 
     
 
-                        <div class="product_btn">
+                        <div class="product product_grid_2">
 
-                            <img class="product_btn-item" src="images/heart.png" alt="">
+    
 
-                            <img class="product_btn-item" src="images/cart.png" alt="">
+                            <div class="product_sale"><span class="product_sale-span">50%</span></div>
+
+    
+
+                            <div class="product_content">
+
+                                <div class="product_img product_img_big">
+
+                                    <img class="product_img_big_img" src="images/header_product_03.png" alt="">
+
+                                </div>
+
+                                <div class="product_desc">
+
+                                    <div class="product_about">
+
+                                        <h2 class="product_title">Черная мужская серьга</h2>
+
+                                        <span class="product_span">DIADEMA GRAND</span>
+
+                                    </div>
+
+                                    <span class="product_price">95 000</span>
+
+                                    <span class="currency">UZS</span>
+
+                                </div>
+
+                            </div>
+
+    
+
+                            <div class="product_btn">
+
+                                <img class="product_btn-item" src="images/heart.png" alt="">
+
+                                <img class="product_btn-item" src="images/cart.png" alt="">
+
+                            </div>
+
+    
+
+    
+
+                        </div>
+
+    
+
+                        <div class="product product_grid_3">
+
+                            <div class="product_content product_content_big">
+
+                                <div class="product_desc">
+
+                                    <div class="product_about">
+
+                                        <h2 class="product_title">Кожанный браслет</h2>
+
+                                        <span class="product_span">Everiot</span>
+
+                                    </div>
+
+                                    <span class="product_price">150 000</span>
+
+                                    <span class="currency">UZS</span>
+
+                                </div>
+
+                                <div class="product_img product_03_img">
+
+                                    <img src="images/header_product_02.png" alt="">
+
+                                </div>
+
+                            </div>
+
+    
+
+                            <div class="product_btn">
+
+                                <img class="product_btn-item" src="images/heart.png" alt="">
+
+                                <img class="product_btn-item" src="images/cart.png" alt="">
+
+                            </div>
 
                         </div>
 
                     </div>
 
     
-
-                    <div class="product product_min product_min_2">
-
-                        <!-- <div class="product_sale"><span class="product_sale-span">50%</span></div> -->
-
-    
-
-                        <div class="product_content product_content_big">
-
-                            <div class="product_desc">
-
-                                <div class="product_about">
-
-                                    <h2 class="product_title">Кожанный браслет</h2>
-
-                                    <span class="product_span">Everiot</span>
-
-                                </div>
-
-                                <span class="product_price">150 000</span>
-
-                                <span class="currency">UZS</span>
-
-                            </div>
-
-                            <div class="product_img product_02_img">
-
-                                <img src="images/header_product_02.png" alt="">
-
-                            </div>
-
-                        </div>
-
-    
-
-                        <div class="product_btn">
-
-                            <img class="product_btn-item" src="images/heart.png" alt="">
-
-                            <img class="product_btn-item" src="images/cart.png" alt="">
-
-                        </div>
-
-                    </div>
 
                 </div>
 
-                <div class="header-slider_slide-item_2">
-
-                    <div class="product product_big">
-
-                        <div class="product_sale"><span class="product_sale-span">50%</span></div>
-
     
-
-                        <div class="product_content product_content_big">
-
-                            <div class="product_img product_img_big">
-
-                                <img class="product_img_big_img" src="images/header_product_03.png" alt="">
-
-                            </div>
-
-                            <div class="product_desc">
-
-                                <div class="product_about">
-
-                                    <h2 class="product_title">Черная мужская серьга</h2>
-
-                                    <span class="product_span">DIADEMA GRAND</span>
-
-                                </div>
-
-                                <span class="product_price">95 000</span>
-
-                                <span class="currency">UZS</span>
-
-                            </div>
-
-                        </div>
-
-    
-
-                        <div class="product_btn">
-
-                            <img class="product_btn-item" src="images/heart.png" alt="">
-
-                            <img class="product_btn-item" src="images/cart.png" alt="">
-
-                        </div>
-
-                    </div>
-
-                </div>
 
             </div>
 
     
-
-            <!-- <div class="swiper-slide header-slider_slide">12345</div>
-
-            <div class="swiper-slide header-slider_slide">12345</div>
-
-            <div class="swiper-slide header-slider_slide">12345</div>
-
-            <div class="swiper-slide header-slider_slide">12345</div>
-
-            <div class="swiper-slide header-slider_slide">12345</div>
-
-            <div class="swiper-slide header-slider_slide">12345</div>
-
-            <div class="swiper-slide header-slider_slide">12345</div> -->
 
         </div>
 
@@ -528,11 +565,521 @@
     </div>
 </header>
 <h3 class="leaders_title">Лидеры продаж</h3>
-<!-- =include components/news.html-->
-<!-- =include components/footer.html-->
+
+<section class="main_leaders">
+    <div class="container">
+        <div class="cantainer_grid">
+
+            <div class="main_leaders_product">
+
+                <div class="main_leaders_product_sale"><span class="main_leaders_product_sale_span">50%</span></div>
+
+                <div class="main_leaders_product_content">
+                    <div class="main_leaders_product_img">
+                        <img class="main_leaders_product_img_image" src="images/product_01.png" alt="">
+                    </div>
+                    <div class="main_leaders_product_desc dn">
+                        <div class="main_leaders_product_desc_about">
+                            <h2 class="main_leaders_product_desc_about_title">Наручные часы</h2>
+                            <span class="main_leaders_product_desc_about_span">Fantastic Style</span>
+                        </div>
+                        <span class="main_leaders_product_desc_price">1 128 000</span>
+                        <span class="main_leaders_product_desc_currency">UZS</span>
+                    </div>
+                </div>
+
+                <div class="main_leaders_product_btn">
+                    <img class="main_leaders_product_btn_item" src="images/heart.png" alt="">
+                    <img class="main_leaders_product_btn_item" src="images/cart.png" alt="">
+                </div>
+
+            </div>
+
+            <div class="main_leaders_product">
+
+                <div class="main_leaders_product_sale"><span class="main_leaders_product_sale_span">NEW%</span></div>
+
+                <div class="main_leaders_product_content">
+                    <div class="main_leaders_product_img">
+                        <img class="main_leaders_product_img_image" src="images/product_02.png" alt="">
+                    </div>
+                    <div class="main_leaders_product_desc">
+                        <div class="main_leaders_product_desc_about">
+                            <!-- <h2 class="main_leaders_product_desc_about_title">Наручные часы</h2> -->
+                            <span class="main_leaders_product_desc_about_span">TISSOT 1853</span>
+                        </div>
+                        <span class="main_leaders_product_desc_price">1 128 000</span>
+                        <span class="main_leaders_product_desc_currency">UZS</span>
+                    </div>
+                </div>
+
+                <div class="main_leaders_product_btn">
+                    <img class="main_leaders_product_btn_item" src="images/heart.png" alt="">
+                    <img class="main_leaders_product_btn_item" src="images/cart.png" alt="">
+                </div>
+
+            </div>
+
+            <div class="main_leaders_product">
+
+                <div class="main_leaders_product_sale"><span class="main_leaders_product_sale_span">NEW%</span></div>
+
+                <div class="main_leaders_product_content">
+                    <div class="main_leaders_product_img">
+                        <img class="main_leaders_product_img_image" src="images/product_03.png" alt="">
+                    </div>
+                    <div class="main_leaders_product_desc">
+                        <div class="main_leaders_product_desc_about">
+                            <!-- <h2 class="main_leaders_product_desc_about_title">Наручные часы</h2> -->
+                            <span class="main_leaders_product_desc_about_span">LVPAI 215</span>
+                        </div>
+                        <span class="main_leaders_product_desc_price">1 128 000</span>
+                        <span class="main_leaders_product_desc_currency">UZS</span>
+                    </div>
+                </div>
+
+                <div class="main_leaders_product_btn">
+                    <img class="main_leaders_product_btn_item" src="images/heart.png" alt="">
+                    <img class="main_leaders_product_btn_item" src="images/cart.png" alt="">
+                </div>
+
+            </div>
+
+            <div class="main_leaders_product">
+
+                <div class="main_leaders_product_sale dn"><span class="main_leaders_product_sale_span">50%</span></div>
+
+                <div class="main_leaders_product_content">
+                    <div class="main_leaders_product_img">
+                        <img class="main_leaders_product_img_image" src="images/product_04.png" alt="">
+                    </div>
+                    <div class="main_leaders_product_desc mt">
+                        <div class="main_leaders_product_desc_about">
+                            <!-- <h2 class="main_leaders_product_desc_about_title">Наручные часы</h2> -->
+                            <span class="main_leaders_product_desc_about_span">MEAEGUET</span>
+                        </div>
+                        <span class="main_leaders_product_desc_price">1 128 000</span>
+                        <span class="main_leaders_product_desc_currency">UZS</span>
+                    </div>
+                </div>
+
+                <div class="main_leaders_product_btn">
+                    <img class="main_leaders_product_btn_item" src="images/heart.png" alt="">
+                    <img class="main_leaders_product_btn_item" src="images/cart.png" alt="">
+                </div>
+
+            </div>
+
+            <div class="main_leaders_product">
+
+                <div class="main_leaders_product_sale"><span class="main_leaders_product_sale_span">50%</span></div>
+
+                <div class="main_leaders_product_content">
+                    <div class="main_leaders_product_img">
+                        <img class="main_leaders_product_img_image" src="images/product_05.png" alt="">
+                    </div>
+                    <div class="main_leaders_product_desc mt">
+                        <div class="main_leaders_product_desc_about">
+                            <!-- <h2 class="main_leaders_product_desc_about_title">Наручные часы</h2> -->
+                            <span class="main_leaders_product_desc_about_span">COBRA</span>
+                        </div>
+                        <span class="main_leaders_product_desc_price">1 128 000</span>
+                        <span class="main_leaders_product_desc_currency">UZS</span>
+                    </div>
+                </div>
+
+                <div class="main_leaders_product_btn">
+                    <img class="main_leaders_product_btn_item" src="images/heart.png" alt="">
+                    <img class="main_leaders_product_btn_item" src="images/cart.png" alt="">
+                </div>
+
+            </div>
+
+            <div class="main_leaders_product">
+
+                <div class="main_leaders_product_sale dn"><span class="main_leaders_product_sale_span">50%</span></div>
+
+                <div class="main_leaders_product_content">
+                    <div class="main_leaders_product_img">
+                        <img class="main_leaders_product_img_image" src="images/product_06.png" alt="">
+                    </div>
+                    <div class="main_leaders_product_desc mt">
+                        <div class="main_leaders_product_desc_about">
+                            <!-- <h2 class="main_leaders_product_desc_about_title">Наручные часы</h2> -->
+                            <span class="main_leaders_product_desc_about_span">ПОВЕЛИТЕЛЬ ЗМЕЙ</span>
+                        </div>
+                        <span class="main_leaders_product_desc_price">1 128 000</span>
+                        <span class="main_leaders_product_desc_currency">UZS</span>
+                    </div>
+                </div>
+
+                <div class="main_leaders_product_btn">
+                    <img class="main_leaders_product_btn_item" src="images/heart.png" alt="">
+                    <img class="main_leaders_product_btn_item" src="images/cart.png" alt="">
+                </div>
+
+            </div>
+
+            <div class="main_leaders_product">
+
+                <div class="main_leaders_product_sale"><span class="main_leaders_product_sale_span">50%</span></div>
+
+                <div class="main_leaders_product_content">
+                    <div class="main_leaders_product_img">
+                        <img class="main_leaders_product_img_image" src="images/product_07.png" alt="">
+                    </div>
+                    <div class="main_leaders_product_desc mt">
+                        <div class="main_leaders_product_desc_about">
+                            <!-- <h2 class="main_leaders_product_desc_about_title">Наручные часы</h2> -->
+                            <span class="main_leaders_product_desc_about_span">EWA 1703</span>
+                        </div>
+                        <span class="main_leaders_product_desc_price">1 128 000</span>
+                        <span class="main_leaders_product_desc_currency">UZS</span>
+                    </div>
+                </div>
+
+                <div class="main_leaders_product_btn">
+                    <img class="main_leaders_product_btn_item" src="images/heart.png" alt="">
+                    <img class="main_leaders_product_btn_item" src="images/cart.png" alt="">
+                </div>
+
+            </div>
+
+            <div class="main_leaders_product">
+
+                <div class="main_leaders_product_sale"><span class="main_leaders_product_sale_span">NEW</span></div>
+
+                <div class="main_leaders_product_content">
+                    <div class="main_leaders_product_img">
+                        <img class="main_leaders_product_img_image" src="images/product_08.png" alt="">
+                    </div>
+                    <div class="main_leaders_product_desc">
+                        <div class="main_leaders_product_desc_about">
+                            <!-- <h2 class="main_leaders_product_desc_about_title">Наручные часы</h2> -->
+                            <span class="main_leaders_product_desc_about_span">CASIO QUARTZ</span>
+                        </div>
+                        <span class="main_leaders_product_desc_price">1 128 000</span>
+                        <span class="main_leaders_product_desc_currency">UZS</span>
+                    </div>
+                </div>
+
+                <div class="main_leaders_product_btn">
+                    <img class="main_leaders_product_btn_item" src="images/heart.png" alt="">
+                    <img class="main_leaders_product_btn_item" src="images/cart.png" alt="">
+                </div>
+
+            </div>
+
+            <div class="main_leaders_product">
+
+                <div class="main_leaders_product_sale"><span class="main_leaders_product_sale_span">50%</span></div>
+
+                <div class="main_leaders_product_content">
+                    <div class="main_leaders_product_img">
+                        <img class="main_leaders_product_img_image" src="images/product_09.png" alt="">
+                    </div>
+                    <div class="main_leaders_product_desc">
+                        <div class="main_leaders_product_desc_about">
+                            <!-- <h2 class="main_leaders_product_desc_about_title">Наручные часы</h2> -->
+                            <span class="main_leaders_product_desc_about_span">SKAGEN 233</span>
+                        </div>
+                        <span class="main_leaders_product_desc_price">1 128 000</span>
+                        <span class="main_leaders_product_desc_currency">UZS</span>
+                    </div>
+                </div>
+
+                <div class="main_leaders_product_btn">
+                    <img class="main_leaders_product_btn_item" src="images/heart.png" alt="">
+                    <img class="main_leaders_product_btn_item" src="images/cart.png" alt="">
+                </div>
+
+            </div>
+
+            <div class="main_leaders_product">
+
+                <div class="main_leaders_product_sale"><span class="main_leaders_product_sale_span">50%</span></div>
+
+                <div class="main_leaders_product_content">
+                    <div class="main_leaders_product_img">
+                        <img class="main_leaders_product_img_image" src="images/product_10.png" alt="">
+                    </div>
+                    <div class="main_leaders_product_desc mt">
+                        <div class="main_leaders_product_desc_about">
+                            <!-- <h2 class="main_leaders_product_desc_about_title">Наручные часы</h2> -->
+                            <span class="main_leaders_product_desc_about_span">EVERIOT</span>
+                        </div>
+                        <span class="main_leaders_product_desc_price">1 128 000</span>
+                        <span class="main_leaders_product_desc_currency">UZS</span>
+                    </div>
+                </div>
+
+                <div class="main_leaders_product_btn">
+                    <img class="main_leaders_product_btn_item" src="images/heart.png" alt="">
+                    <img class="main_leaders_product_btn_item" src="images/cart.png" alt="">
+                </div>
+
+            </div>
+
+            <div class="main_leaders_product">
+
+                <div class="main_leaders_product_sale"><span class="main_leaders_product_sale_span">50%</span></div>
+
+                <div class="main_leaders_product_content">
+                    <div class="main_leaders_product_img">
+                        <img class="main_leaders_product_img_image" src="images/product_11.png" alt="">
+                    </div>
+                    <div class="main_leaders_product_desc">
+                        <div class="main_leaders_product_desc_about">
+                            <!-- <h2 class="main_leaders_product_desc_about_title">Наручные часы</h2> -->
+                            <span class="main_leaders_product_desc_about_span">KADEMAN ARMY</span>
+                        </div>
+                        <span class="main_leaders_product_desc_price">1 128 000</span>
+                        <span class="main_leaders_product_desc_currency">UZS</span>
+                    </div>
+                </div>
+
+                <div class="main_leaders_product_btn">
+                    <img class="main_leaders_product_btn_item" src="images/heart.png" alt="">
+                    <img class="main_leaders_product_btn_item" src="images/cart.png" alt="">
+                </div>
+
+            </div>
+
+            <div class="main_leaders_product">
+
+                <div class="main_leaders_product_sale"><span class="main_leaders_product_sale_span">70%</span></div>
+
+                <div class="main_leaders_product_content">
+                    <div class="main_leaders_product_img">
+                        <img class="main_leaders_product_img_image" src="images/product_12.png" alt="">
+                    </div>
+                    <div class="main_leaders_product_desc mt">
+                        <div class="main_leaders_product_desc_about">
+                            <!-- <h2 class="main_leaders_product_desc_about_title">Наручные часы</h2> -->
+                            <span class="main_leaders_product_desc_about_span">THE KING</span>
+                        </div>
+                        <span class="main_leaders_product_desc_price">1 128 000</span>
+                        <span class="main_leaders_product_desc_currency">UZS</span>
+                    </div>
+                </div>
+
+                <div class="main_leaders_product_btn">
+                    <img class="main_leaders_product_btn_item" src="images/heart.png" alt="">
+                    <img class="main_leaders_product_btn_item" src="images/cart.png" alt="">
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+</section>
+
+<h4 class="more"><a href="">ещё</a></h4>
+<h3 class="leaders_title">Последние новости</h3>
+
+<section class="main_news"> 
+    <div class="container">
+        <div class="main_news_content">
+
+            <div class="main_news_content_first">
+
+                <div class="main_news_content_post firstpost">
+
+                    <div class="main_news_content_post_advice"><span
+                            class="main_news_content_post_advice_span">СОВЕТЫ</span>
+                    </div>
+
+                    <div class="main_news_content_post_about">
+                        <div class="main_news_content_post_about_title">Как выбрать первые японские часы – советы
+                            эксперта
+                        </div>
+                        <div class="main_news_content_post_about_desc">
+                            Задумавшись о том, какие японские часы приобрести, следует держать в уме следующие цифры: в
+                            Японии существуют около 2800 фирм, так или иначе связанных с часовым производством. 1500 из
+                            них имеют в своем названии слово Seiko, 700 – Citizen, остальное, грубо говоря, относится к
+                            Casio и паре ...
+                        </div>
+                    </div>
+
+                    <div class="main_news_content_post_date">
+                        <i class="main_news_content_post_date_icon"></i>
+                        <span class="main_news_content_post_date_span">19.04.2020 | 17:30</span>
+                    </div>
+
+                </div>
+
+                <div class="main_news_content_post secondpost">
+
+                    <div class="main_news_content_post_advice"><span
+                            class="main_news_content_post_advice_span">СОВЕТЫ</span>
+                    </div>
+
+                    <div class="main_news_content_post_about">
+                        <div class="main_news_content_post_about_title">Что такое вечный календарь и как он работает?
+
+                        </div>
+                        <div class="main_news_content_post_about_desc">
+                            Часовщики народ крайне конкретный и точный не только в своих манипуляциях, но и в мыслях и
+                            особенно терминах. Тем удивительнее, что ...
+                        </div>
+                    </div>
+
+                    <div class="main_news_content_post_date">
+                        <i class="main_news_content_post_date_icon"></i>
+                        <span class="main_news_content_post_date_span">14.04.2020 | 14:16</span>
+                    </div>
+
+                </div>
+
+                <div class="main_news_content_post thirdpost">
+
+                    <div class="main_news_content_post_advice"><span
+                            class="main_news_content_post_advice_span">СОВЕТЫ</span>
+                    </div>
+
+                    <div class="main_news_content_post_about">
+                        <div class="main_news_content_post_about_title">Лучшие механические часы: выбор эксперта
+                        </div>
+                        <div class="main_news_content_post_about_desc">
+                            Мечтаете носить мануфактурную механику, но пока не можете позволить себе подобную роскошь?
+                            Не стоит расстраиваться! ...
+                        </div>
+                    </div>
+
+                    <div class="main_news_content_post_date">
+                        <i class="main_news_content_post_date_icon"></i>
+                        <span class="main_news_content_post_date_span">12.04.2020 | 14:16</span>
+                    </div>
+
+                </div>
+
+            </div>
+
+            <div class="main_news_content_second">
+
+                <div class="main_news_content_post fourthpost">
+
+                    <div class="main_news_content_post_advice"><span
+                            class="main_news_content_post_advice_span">СОВЕТЫ</span>
+                    </div>
+
+                    <div class="main_news_content_post_about">
+                        <div class="main_news_content_post_about_title">новая версия культовых дайверских часов
+                        </div>
+                        <div class="main_news_content_post_about_desc">
+                            В 2020 году историческая модель Seiko Prospex Diver отмечает свое 55-летие. Часы 62MAS
+                            оказали ...
+                        </div>
+                    </div>
+
+                    <div class="main_news_content_post_date">
+                        <i class="main_news_content_post_date_icon"></i>
+                        <span class="main_news_content_post_date_span">18.04.2020 | 14:16</span>
+                    </div>
+
+                </div>
+
+                <div class="main_news_content_post fifthspost">
+
+                    <div class="main_news_content_post_advice"><span
+                            class="main_news_content_post_advice_span">СОВЕТЫ</span>
+                    </div>
+
+                    <div class="main_news_content_post_about">
+                        <div class="main_news_content_post_about_title">Как определить характер по цвету циферблата?
+                        </div>
+                        <div class="main_news_content_post_about_desc">
+                            Современные часовые компании мира используют 270 цветов и оттенков для окраски циферблатов.
+                            Какой из них ...
+                        </div>
+                    </div>
+
+                    <div class="main_news_content_post_date">
+                        <i class="main_news_content_post_date_icon"></i>
+                        <span class="main_news_content_post_date_span">16.04.2020 | 14:16</span>
+                    </div>
+
+                </div>
+
+                <div class="main_news_content_post sixthpost">
+
+                    <div class="main_news_content_post_advice"><span
+                            class="main_news_content_post_advice_span">СОВЕТЫ</span>
+                    </div>
+
+                    <div class="main_news_content_post_about">
+                        <div class="main_news_content_post_about_title">какие часы выбирают студенты
+                        </div>
+                        <div class="main_news_content_post_about_desc">
+                            В канун главного студенческого праздника мы поговорили с учащимися одного из столичных вузов
+                            о том, какие бренды и модели они предпочитают, на что обращают внимание при выборе, и дороже
+                            какой суммы не готовы потратить на часы. А для того, чтобы эксперимент ...
+                        </div>
+                    </div>
+
+                    <div class="main_news_content_post_date">
+                        <i class="main_news_content_post_date_icon"></i>
+                        <span class="main_news_content_post_date_span">18.04.2020 | 14:16</span>
+                    </div>
+
+                </div>
+
+
+            </div>
+
+        </div>
+    </div>
+</section>
+<section class="footer">
+    <div class="container">
+        <div class="footer_items">
+
+            <div class="footer_items_ul">
+                <div class="footer_items_ul_links">
+                    <div class="footer_items_ul_links_title">Товары</div>
+                    <li class="footer_items_ul_links_li"><a href="">Часы</a></li>
+                    <li class="footer_items_ul_links_li"><a href="">Кольца</a></li>
+                    <li class="footer_items_ul_links_li"><a href="">Серьги</a></li>
+                    <li class="footer_items_ul_links_li"><a href="">Браслеты</a></li>
+                    <li class="footer_items_ul_links_li"><a href="">Клатчи</a></li>
+                    <li class="footer_items_ul_links_li"><a href="">Цепочки</a></li>
+                </div>
+            </div>
+
+            <div class="footer_items_ul">
+                <div class="footer_items_ul_links">
+                    <div class="footer_items_ul_links_title">Покупателям</div>
+                    <li class="footer_items_ul_links_li"><a href="">Скидки</a></li>
+                    <li class="footer_items_ul_links_li"><a href="">Блог</a></li>
+                    <li class="footer_items_ul_links_li"><a href="">Частые вопросы</a></li>
+                    <li class="footer_items_ul_links_li"><a href="">Доставка</a></li>
+                    <li class="footer_items_ul_links_li"><a href="">Гарантия</a></li>
+                    <li class="footer_items_ul_links_li"><a href="">Возврат</a></li>
+                </div>
+            </div>
+
+            <div class="footer_items_ul">
+                <div class="footer_items_ul_links">
+                    <div class="footer_items_ul_links_title">Контакты</div>
+                    <li class="footer_items_ul_links_li">Ул. Аския, Яккасарайский район,<br>Ташкент, Узбекистан</li>
+                    <li class="footer_items_ul_links_li"><a href="tel:+998977425414">+998 97 742 54 14 | +998 97 752 56 32</a></li>
+                    <li class="footer_items_ul_links_li"><a href="mailto:totembo@exapmle.com">totembo@exapmle.com</a></li>
+                    <li class="footer_items_ul_links_li social_title">Социальные сети</li>
+                    <div class="footer_items_ul_links_icon">
+                        <i class="fab fa-vk"></i>
+                        <i class="fab fa-youtube"></i>
+                        <i class="fab fa-instagram-square"></i>
+                        <i class="fab fa-facebook-f"></i>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</section>
 
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/5.4.5/js/swiper.min.js"></script>
 <script src="script/common.js"></script>
 </body>
-</html>
+</html> 
